@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "dev_projects",
+  "info": {
+    "singularName": "dev-project",
+    "pluralName": "dev-projects",
+    "displayName": "DevProject",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "images": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "technologies": {
+      "type": "component",
+      "repeatable": true,
+      "component": "enumeration.technologie"
+    },
+    "type": {
+      "type": "string"
+    }
+  }
+}

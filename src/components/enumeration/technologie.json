@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_enumeration_technologies",
+  "info": {
+    "displayName": "Technologie",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "technologie": {
+      "type": "enumeration",
+      "enum": [
+        "React",
+        "Redux",
+        "Node.JS",
+        "ES6",
+        "HTML",
+        "CSS",
+        "Vercel",
+        "React router",
+        "I18n",
+        "Bootstrap",
+        "Firebase"
+      ]
+    }
+  }
+}
